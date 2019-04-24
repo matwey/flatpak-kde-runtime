@@ -2,7 +2,7 @@
     "build-runtime": true,
     "id": "org.kde.Sdk",
     "id-platform": "org.kde.Platform",
-    "branch": "5.12",
+    "branch": "5.12-gles",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "18.08",
@@ -98,6 +98,7 @@
                 }
             },
             "config-opts": [ "-confirm-license", "-opensource",
+                             "-opengl", "es2",
                              "-shared",
                              "-platform", "linux-g++",
                              "-optimized-qmake",
